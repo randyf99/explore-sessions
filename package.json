@@ -10,7 +10,10 @@
   "author": "Randy Ferrer",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "morgan": "^1.7.0",
+    "session-file-store": "^0.2.0"
   },
   "devDependencies": {
     "nodemon": "^1.9.2"
