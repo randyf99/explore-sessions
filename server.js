@@ -25,7 +25,7 @@ app.get('/', (req, res, next) => {
 });
 
 app.get('/', (req, res, next) => {
-  console.assert(typeof req.session.views === 'number', 'any views missed count', req.session);
+  console.assert(req.session.views, 'any views missed count', req.session);
   req.session.views++;
 
   return next();  
